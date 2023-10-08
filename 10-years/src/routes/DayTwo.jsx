@@ -16,7 +16,7 @@ export const DayTwo = () => {
     },[])
 
     return (
-        <div className="bg-[url('img/bg-daytwo.webp')] bg-cover h-screen w-screen flex flex-col justify-between gap-y-20 pb-32 pt-64">
+        <div className="bg-[url('/img/bg-daytwo.webp')] bg-cover h-screen w-screen flex flex-col justify-between gap-y-20 pb-32 pt-64">
             <div className="absolute top-0 left-0 w-screen h-screen bg-black/30"/>
             <AudioPlayer src={globalState.lineDays.find(e => e.path == url).soundtrack} title={globalState.lineDays.find(e => e.path == url).stTitle}/>
             

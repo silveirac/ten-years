@@ -4,7 +4,7 @@ import { IconsLine } from "../components/IconsLine/IconsLine"
 import { WaitingLogo } from "../components/WaitingLogo/WaitingLogo"
 import { GlobalContext } from "../context/GlobalContext"
 import { AudioPlayer } from "../components/Utilities/AudioPlayer/AudioPlayer"
-import soundtrack from "/music/home.mp3"
+import soundtrack from "//music/home.mp3"
 
 export const HomePage = () => {
     const {globalState} = useContext(GlobalContext);
@@ -14,7 +14,7 @@ export const HomePage = () => {
     },[])
 
     return (
-        <div className="bg-[url('img/bg.webp')] bg-cover h-screen w-screen flex flex-col justify-between gap-y-20 py-32">
+        <div className="bg-[url('/img/bg.webp')] bg-cover h-screen w-screen flex flex-col justify-between gap-y-20 py-32">
             <AudioPlayer src={soundtrack} title={"Clair de Lune - Claude Debussy"}/>
 
             <WaitingLogo/>
