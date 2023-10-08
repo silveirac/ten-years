@@ -1,0 +1,11 @@
+audio::-webkit-media-controls-enclosure {
+    background-color: rgba(0,0,0,0);
+    filter: invert();
+}
+
+audio::-webkit-media-controls-current-time-display,
+audio::-webkit-media-controls-time-remaining-display {
+    display: none;
+}
+
+
