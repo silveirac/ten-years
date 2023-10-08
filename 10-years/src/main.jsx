@@ -9,7 +9,7 @@ import { HomePage } from './routes/HomePage'
 import { DayOne } from './routes/DayOne'
 
 
-import { RouterProvider, createBrowserRouter } from 'react-router-dom'
+import { RouterProvider, createBrowserRouter, Navigate } from 'react-router-dom'
 import { DayTwo } from './routes/DayTwo'
 const router = createBrowserRouter([
   {
@@ -19,6 +19,7 @@ const router = createBrowserRouter([
       { index: true, element: <HomePage/>},
       { path: "/one", element: <DayOne/>},
       { path: "/two", element: <DayTwo/>},
+      { path: "*", element: <Navigate to={"/"}/>}
     ]
   }
 
