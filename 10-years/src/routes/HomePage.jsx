@@ -15,7 +15,7 @@ export const HomePage = () => {
 
     return (
         <div className="bg-[url('/img/bg.webp')] bg-cover h-screen w-screen flex flex-col justify-between gap-y-20 py-32">
-            <AudioPlayer src={soundtrack} title={"Clair de Lune - Claude Debussy"}/>
+            <AudioPlayer src={soundtrack} title={"Bryan Adams - Heaven (Classic Version)"}/>
 
             <WaitingLogo/>
 
