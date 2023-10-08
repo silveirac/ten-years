@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { CountdownPlate } from "./CountDownPlate";
+import { CountdownPlate } from "./CountDownPlate.jsx";
 import { useNavigate } from "react-router-dom";
 
 export const Countdown = ({ expectedDate, hasYears, hasMonths, hasDays, hasHours, hasMinutes, hasSeconds}) => {
