@@ -4,8 +4,8 @@ import { createContext, useEffect, useState, useReducer } from "react"
 const initialState = {
     date: "2023-10-7 GMT-0300",
     lineDays: [
-        {path:"/one", urlPath: "/img/icon-dayone.svg", soundtrack: "/music/one.mp3", stTitle: "Hero - Hans Zimmer (Kung Fu Panda Soundtrack)"},
-        {path:"/two", urlPath: "/img/icon-daytwo.svg", soundtrack: "/music/two.mp3", stTitle: "Not So Romantic Flight - Epic Majestic Orchestral"},
+        {path:"/one", urlPath: "/img/icon-dayone.svg", soundtrack: "music/one.mp3", stTitle: "Hero - Hans Zimmer (Kung Fu Panda Soundtrack)"},
+        {path:"/two", urlPath: "/img/icon-daytwo.svg", soundtrack: "music/two.mp3", stTitle: "Not So Romantic Flight - Epic Majestic Orchestral"},
         {path:"/three", urlPath: "/img/icon-dayone.svg"},
         {path:"/four", urlPath: "/img/icon-dayone.svg"},
         {path:"/five", urlPath: "/img/icon-dayone.svg"},

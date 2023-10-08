@@ -4,7 +4,7 @@ import { IconsLine } from "../components/IconsLine/IconsLine"
 import { WaitingLogo } from "../components/WaitingLogo/WaitingLogo"
 import { GlobalContext } from "../context/GlobalContext"
 import { AudioPlayer } from "../components/Utilities/AudioPlayer/AudioPlayer"
-import soundtrack from "//music/home.mp3"
+import soundtrack from "/music/home.mp3"
 
 export const HomePage = () => {
     const {globalState} = useContext(GlobalContext);
