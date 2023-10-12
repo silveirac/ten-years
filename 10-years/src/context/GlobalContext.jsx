@@ -6,8 +6,8 @@ const initialState = {
     lineDays: [
         {path:"/one", urlPath: "/img/icon-dayone.svg", soundtrack: "music/one.mp3", stTitle: "Hero - Hans Zimmer (Kung Fu Panda Soundtrack)"},
         {path:"/two", urlPath: "/img/icon-daytwo.svg", soundtrack: "music/two.mp3", stTitle: "Not So Romantic Flight - Epic Majestic Orchestral"},
-        {path:"/three", urlPath: "/img/icon-dayone.svg"},
-        {path:"/four", urlPath: "/img/icon-dayone.svg"},
+        {path:"/three", urlPath: "/img/icon-daythree.png", soundtrack: "music/three.mp3", stTitle: "Tarantela Napolitana - Vicent Lemoine Et Son"},
+        {path:"/four", urlPath: "/img/icon-dayfour.svg", soundtrack: "music/three.mp3", stTitle: "Tarantela Napolitana - Vicent Lemoine Et Son"},
         {path:"/five", urlPath: "/img/icon-dayone.svg"},
         {path:"/six", urlPath: "/img/icon-dayone.svg"},
         {path:"/seven", urlPath: "/img/icon-dayone.svg"},
