@@ -16,10 +16,10 @@ export const DayFive = () => {
     },[])
 
     useEffect(() => {
-        globalState.lineDays[2].path == "/" ? navigate("/") : null;
-    },[globalState.lineDays[2].path])
+        globalState.lineDays[4].path == "/" ? navigate("/") : null;
+    },[globalState.lineDays[4].path])
 
-    return (globalState.lineDays[2].path != "/" && 
+    return (globalState.lineDays[4].path != "/" && 
         <div className="bg-[url('/img/bg-dayfive.webp')] bg-cover h-screen w-screen flex flex-col justify-between gap-y-20 pb-32 pt-64">
             <div className="absolute top-0 left-0 w-screen h-screen bg-black/30"/>
             <AudioPlayer src={globalState.lineDays.find(e => e.path == url).soundtrack} title={globalState.lineDays.find(e => e.path == url).stTitle}/>
