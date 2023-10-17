@@ -17,6 +17,8 @@ import { DayFive } from './routes/DayFive'
 import { DaySix } from './routes/DaySix'
 import { DaySeven } from './routes/DaySeven'
 import { DayEight } from './routes/DayEight'
+import { DayNine } from './routes/DayNine'
+import { DayTen } from './routes/DayTen'
 
 const router = createBrowserRouter([
   {
@@ -32,6 +34,8 @@ const router = createBrowserRouter([
       { path: "/six", element: <DaySix/> },
       { path: "/seven", element: <DaySeven/> },
       { path: "/eight", element: <DayEight/> },
+      { path: "/nine", element: <DayNine/> },
+      { path: "/ten", element: <DayTen/> },
       { path: "*", element: <Navigate to={"/"}/> }
     ]
   }

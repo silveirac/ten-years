@@ -12,8 +12,8 @@ const initialState = {
         {path:"/six", urlPath: "/icons/icon-daysix.png"},
         {path:"/seven", urlPath: "/icons/icon-dayseven.png", soundtrack: "music/seven.mp3", stTitle: "Harry Potter Theme Cover - The Radical Array Project (T.R.A.P)"},
         {path:"/eight", urlPath: "/icons/icon-dayeight.png", soundtrack: "music/eight.mp3", stTitle: "You're My Home - Billy Joel"},
-        {path:"/nine", urlPath: "/icons/icon-dayone.svg"},
-        {path:"/ten", urlPath: "/icons/icon-dayone.svg"}
+        {path:"/nine", urlPath: "/icons/icon-daynine.png", soundtrack: "music/nine.mp3", stTitle: "Karma - Taylor Swift"},
+        {path:"/ten", urlPath: "/icons/icon-dayten.png", soundtrack: "music/ten.mp3", stTitle: "Photograph - Ed Sheeran"}
     ]
 }
 
